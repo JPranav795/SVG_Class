@@ -7,3 +7,11 @@
  };
 
  imgSvg.addEventListener("click", logImgSvgId);
+
+ const inlineSvg = document.querySelector("badge");
+
+ function logInlineSvgId(){
+    console.log(' the id of this element is: $(this.id)');
+ }
+
+ inlineSvg.addEventListener("click", LogInlineSvgId);
